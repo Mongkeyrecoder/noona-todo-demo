@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://tododemo3.ap-northeast-2.elasticbeanstalk.com/api',
+  baseURL: 'https://cute-empanada-b3588b.netlify.app/api',
   headers: {
     "Content-Type": "application/json",
   },
