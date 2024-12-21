@@ -1,13 +1,13 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `${process.env.REACT_APP_BACKEND_URL}/api`,
+  baseURL: 'http://tododemo3.ap-northeast-2.elasticbeanstalk.com/api',
   headers: {
     "Content-Type": "application/json",
   },
 });
 /**
- * console.log all requests and responses
+ * console.log all requests and responses ssss
  */
 api.interceptors.request.use(
   (request) => {
